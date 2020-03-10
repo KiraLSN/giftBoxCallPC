@@ -29,7 +29,7 @@ namespace GiftBoxCall
             try
             {
                 string MyConnect = "Server=192.168.0.14; Database=line-feeder-db; Uid=Luciano; Pwd=Luciano405060#";
-                string Query = "UPDATE linhas SET status = 1 WHERE linha = 'W01'";
+                string Query = "UPDATE linhas SET status = 1 WHERE linha = 'W02'";
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnect);
                 MySqlCommand MyCommand2 = new MySqlCommand(Query, MyConn2);
                 MySqlDataReader MyReader2;
@@ -45,6 +45,12 @@ namespace GiftBoxCall
             {
                 MessageBox.Show(error.Message.ToString());
             }
+        }
+
+        private void opçõesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 newForm2 = new Form2();
+            newForm2.ShowDialog();
         }
     }
 }
