@@ -39,6 +39,35 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "W001",
+            "W002",
+            "TB01",
+            "TB02",
+            "J001",
+            "J002",
+            "J003",
+            "J004",
+            "J005",
+            "J006",
+            "J007",
+            "J008",
+            "J009",
+            "J010",
+            "J011",
+            "J012",
+            "J013",
+            "J014",
+            "J015",
+            "J016",
+            "J017",
+            "J018",
+            "M-01",
+            "M-02",
+            "M-03",
+            "M-04",
+            "M-05",
+            "M-06"});
             this.comboBox1.Location = new System.Drawing.Point(103, 54);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -61,6 +90,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Salvar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -70,6 +100,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
             // 
@@ -83,6 +114,8 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "A207M"});
             this.comboBox2.Location = new System.Drawing.Point(103, 81);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);

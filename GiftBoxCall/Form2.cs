@@ -55,6 +55,7 @@ namespace GiftBoxCall
                     Form3 newForm3 = new Form3();
                     newForm3.ShowDialog();
                 }
+                this.Close();
             }
             catch (System.Exception error)
             {
@@ -63,5 +64,7 @@ namespace GiftBoxCall
                 MessageBox.Show(error.Message.ToString());
             }
         }
+
+        
     }
 }
