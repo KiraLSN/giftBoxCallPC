@@ -64,7 +64,6 @@
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 2;
-            
             // 
             // label1
             // 
@@ -105,6 +104,10 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(313, 242);
+            this.MinimumSize = new System.Drawing.Size(313, 242);
             this.Name = "Form2";
             this.RightToLeftLayout = true;
             this.Text = "Login de Adminsitrador";
